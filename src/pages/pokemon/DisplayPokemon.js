@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Image, Badge, Box,Text} from '@chakra-ui/react';
+import {Image, Badge,Text} from '@chakra-ui/react';
 
 
 const DisplayPokemon = ({pokemon}) => {

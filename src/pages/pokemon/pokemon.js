@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react'
 import Layout from '../../components/layout/layout'
 import DisplayPokemon from './DisplayPokemon';
-import { Box,  Container, Grid, Center, Flex} from '@chakra-ui/react';
+import { Box,  Container, Grid, Center} from '@chakra-ui/react';
 import Loader from '../../components/pokemon/Loader';
 
 export default function Pokemon(props) {
