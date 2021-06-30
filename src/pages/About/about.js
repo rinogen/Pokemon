@@ -12,7 +12,6 @@ export default function About(props) {
             <>
                 <Layout>
                     <Container maxW="7xl" paddingTop={{ base: "7", md: "20", lg: "40" }}  paddingLeft={{ base: "7", md: "20", lg: "20" }}  paddingRight={{ base: "7", md: "20", lg: "20" }} pb="10" minHeight="90vh">
-                        {/* <Fade duration={500} distance="30px" fraction={0.4} bottom> */}
                             <Box mt={{ base: "20", md: "28", lg: "0" }}>
                                 <Heading as="h1" mb="5" letterSpacing={"-.0.001rem"} lineHeight={"-.0.001rem"} fontSize={{ base: "2xl", md: "5xl", lg: "7xl" }}>
                                     Pokemon Universe
@@ -43,8 +42,7 @@ export default function About(props) {
                                     Here is the <strong>Complete History of Pokemon Universe</strong>
                                 </Text>
                             </Box>
-                            
-                        {/* </Fade> */}
+
                             <Grid pt={10}
                                     h="full"
                                     maxH="full"

@@ -30,7 +30,7 @@ const Footer = (props) => {
                    </GridItem>
 
                    <GridItem rowSpan={1} colSpan={1}>
-                       <Text fontSize={{ base :"8px", md:"lg", lg:"xl"}} textAlign="left" fontWeight="bold">Contact Me</Text>
+                       <Text fontSize={{ base :"8px", md:"lg", lg:"xl"}} textAlign="left" fontWeight="semibold">Contact Me</Text>
                        <Text fontSize={{ base :"6px", md:"sm", lg:"md"}} textAlign="left"><Link href="https://github.com/rinogen" isExternal><i className="fa fa-github" aria-hidden="true"></i> Github</Link></Text>
                        <Text fontSize={{ base :"6px", md:"sm", lg:"md"}} textAlign="left"><Link href="https://www.linkedin.com/in/hubertusrino/" isExternal><i className="fa fa-linkedin" aria-hidden="true"/> Linked In</Link></Text>
                        <Text fontSize={{ base :"6px", md:"sm", lg:"md"}} textAlign="left"><Link href="https://www.instagram.com/rinogen10/" isExternal><i className="fa fa-instagram" aria-hidden="true"/> Instagram</Link></Text>
